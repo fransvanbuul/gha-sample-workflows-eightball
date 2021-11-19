@@ -1,5 +1,9 @@
+#maven
 target/
 #eclipse
 .classpath
 .settings
 .project
+#fortify
+*.fpr
+*.scan
