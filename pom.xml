@@ -10,7 +10,17 @@
 		<url>https://software.microfocus.com/software/enterprise-security</url>
 		<name>Fortify</name>
 	</organization>
+	<properties>
+	    <maven.compiler.source>11</maven.compiler.source>
+	    <maven.compiler.target>11</maven.compiler.target>
+	    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 	<dependencies>
+		<dependency>
+		    <groupId>commons-fileupload</groupId>
+		    <artifactId>commons-fileupload</artifactId>
+		    <version>1.2</version>
+		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
